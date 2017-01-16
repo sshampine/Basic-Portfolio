@@ -1,0 +1,20 @@
+.wrapper {
+	width: 960px;
+}
+
+.content {
+	width: 650px;
+	overflow: hidden;
+	background-color: #ffffff;
+	border-top: thick double #dddddd;
+	color: #777777;
+}
+
+.image {
+	float: left;
+	margin-right: 10px;
+}
+
+h1 {
+	color: #4aaaa5;
+}
