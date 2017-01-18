@@ -1,20 +1,156 @@
-.wrapper {
+h1, h2, h3, h4 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+p {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+.header {
+	position: relative;
 	width: 960px;
 }
 
+.header h1 {
+
+	margin: 0;
+	margin-left: 100px;
+	margin-right: 560px;
+	padding: 20px;
+	position: relative; bottom: 0;
+	background-color: #4aaaa5;
+	color: white;
+
+}
+
+.name {
+	position: absolute;
+	left: 100px;
+
+}
+
+.nav {
+	position: absolute;
+	right: 0;
+	top: 0;
+	
+}
+
+.nav ul li {
+	list-style: none;
+	float: left;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	padding: 10px;
+
+} 
+
+.main {
+	/*top: 50px;*/
+	width: 960px;
+	height: 350px;
+	background-image: url("../images/cork-wallet.png");
+	position: relative;
+	border-top: 2px solid #cccccc;
+}
+
 .content {
-	width: 650px;
-	overflow: hidden;
-	background-color: #ffffff;
-	border-top: thick double #dddddd;
+	width: 410px;
+	height: 300px;
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	background-color: white;
 	color: #777777;
 }
 
-.image {
-	float: left;
-	margin-right: 10px;
+.content h2 {
+	border-bottom: 1px solid #777777;
+	
 }
 
-h1 {
-	color: #4aaaa5;
+
+.bio {
+	width: 365px;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.bio p {
+	font-size: smaller;
+
+}
+
+.contact {
+	width: 365px;
+	height: 200px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.contact p {
+	font-size: smaller;
+
+}
+
+#img {
+	float: left;
+	padding-right: 10px;
+}
+
+.main p {
+	padding-left: 10px;
+}
+
+.sidebar {
+	width: 175px;
+	height: 130px;
+	background-color: white;
+	position: absolute;
+	top: 25px;
+	left: 535px;
+}
+
+.connect {
+	width: 140px;
+	height: 85px;
+	margin-left: 15px;
+}
+
+.connect h4 {
+	font-size: smaller;
+	border-bottom: 1px solid #777777;
+}
+
+.socialmedia ul li {
+	list-style: none;
+	float: left;
+
+}
+
+.socialmedia ul li a {
+	text-decoration: none;
+	padding: 5px;
+}	
+
+.footer {
+	background-color: #666666;
+	border-top: 5px solid #4aaaa5;
+	width: 960px;
+}
+
+.footer p {
+	text-align: center;
+	margin: auto;
+	padding: 20px;
+}
+
+input {
+	width: 100%;
 }
